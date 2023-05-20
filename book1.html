@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="book1.css">
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+    #searchBar {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+    header {
+      background-color: #bd98e1;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .book-image {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .book-image img {
+      width: 200px;
+      height: auto;
+    }
+
+    .book-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .book-author {
+      font-size: 18px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .book-description {
+      margin-bottom: 20px;
+    }
+
+    .book-price {
+      font-size: 20px;
+      font-weight: bold;
+      color: #58cc31;
+    }
+
+    footer {
+      background-color: #bd98e1;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .review-author {
+      font-weight: bold;
+      font-style: italic;
+      display: flex;
+      align-items: center;
+    }
+
+    .profile-circle {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #bd98e1;
+      margin-right: 10px;
+    }
+    
+  </style>
+  <title>Book Information</title>
+</head>
+<body>
+  <header>
+    <h1></h1>
+    <header>
+        <a class="home-button" href="home.html">
+          <h1>Juns Bookstore</h1>
+        </a>
+      </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Best Sellers</a></li>
+        <li><a href="#">New Releases</a></li>
+        <li><a href="#">Comics</a></li>
+        <li><a href="#">Catalogs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="book-details">
+    <div class="book-image">
+      <img src="img/book1.jpg" alt="Book Cover">
+    </div>
+    <div class="book-info">
+      <h2>The Light Beyond the Garden Wall</h2>
+      <p class="book-author">By SCOTT WHITEHEAD</p>
+      <div class="star-rating">
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+      </div>
+      <p class="book-description">The Light Beyond the Garden Wall is a tale of how the boy Isaiah came to be known as "The Prophet." When Isaiah's family is slain on orders from the King of Judah, he is warned in a dream to flee to an enemy land.</p>
+      <p class="book-price">47'000₮</p>
+    </div>
+  </section>
+
+  <section class="book-reviews">
+    <h2>Customer Reviews</h2>
+    <div class="book-review">
+      <p class="review-author">Haliun</p>
+      <div class="star-rating">
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="half-star"></span>
+      </div>
+      <p class="review-text">I hate to admit this but I put off reading the last chapter for months because I knew I’d have to review the book. I couldn’t delay any longer because of my quest to finish all my unfinished books.</p>
+    </div>
+    <div class="book-review">
+      <p class="review-author">Misheel</p>
+      <div class="star-rating">
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+      </div>
+      <p class="review-text">What a beautifully written book. I could easily believe it was true. It carries a strong message that we can never be tired of hearing. Full of love and laughter and life lessons for all of us. Once you open the book and read the first page you will be driven to get to the last page. Usually I pass my books on to others to read but this one is a keeper!</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Juns Bookstore. All rights reserved.</p>
+  </footer>
+</body>
+</html>
